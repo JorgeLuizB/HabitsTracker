@@ -1,7 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #09090A;
-    display: grid;
-    place-items: center;
     height: 100vh;
     margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    padding: 16px 24px;
+    border: 1px solid #8b5cf6;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+button img{
+    margin-right: 12px;
 }
