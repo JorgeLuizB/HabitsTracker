@@ -44,6 +44,7 @@ input{
 }
 input:checked{
     background-color: #8b5cf6;
+    border: 2px solid #a78bfa;
     transition: all .3s;
 }
 form{
