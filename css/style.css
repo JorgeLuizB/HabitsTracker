@@ -15,6 +15,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 48px;
+    position: fixed;
+    background-color: #09090A;
+    width: 100%;
 }
 
 button{
@@ -30,6 +33,7 @@ button{
     font-size: 600;
     font-size: 16px;
     line-height: 125%;
+    margin-left: 48px;
 }
 input{
     appearance: none;
@@ -47,10 +51,10 @@ input:checked{
     border: 2px solid #a78bfa;
     transition: all .3s;
 }
-form{
+#form-habits{
     display: flex;
-    gap: 32px;
-    padding: 0 48px;
+    padding: 182px 48px 48px;
+    width: fit-content;
 }
 .habit{
     width: 64px;
@@ -84,4 +88,10 @@ form{
 }
 .day div{
     margin-bottom: 8px;
+}
+
+@media (max-width:570px){
+    button div{
+        display: none;
+    }
 }

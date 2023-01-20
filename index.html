@@ -11,59 +11,19 @@
 
     <header>
         <img src="./assets/logo.svg" alt="logo do app" draggable="false">
-        <button><img src="./assets/plus-icon.svg" alt="simbolo de mais"> Registrar meu dia</button>
+        <button><img src="./assets/plus-icon.svg" alt="simbolo de mais">
+            <div>Registrar meu dia</div>
+        </button>
     </header>
     <form id="form-habits">
         <div class="habits">
-            <div class="habit">🏃</div>
-            <div class="habit">💧</div>
-            <div class="habit">🍎</div>
+            <div class="habit" data-name="run">🏃</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍎</div>
         </div>
-        <div class="days">
-            <div class="day">
-                <div>18/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-            <div class="day">
-                <div>19/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-            <div class="day">
-                <div>20/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-            <div class="day">
-                <div>21/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-            <div class="day">
-                <div>22/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-            <div class="day">
-                <div>23/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-            <div class="day">
-                <div>24/01</div>
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
-            </div>
-        </div>
+        <div class="days"></div>
     </form>
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
