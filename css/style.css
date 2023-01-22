@@ -9,7 +9,6 @@
 body{
     background-color: #09090a;
     color: white;
-  
     height: 100vh;
 }
   
@@ -17,9 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
     padding: 48px;
-  
     position: fixed;
     width: 100%;
     background-color: #09090a;
@@ -31,11 +28,9 @@ button{
     border: 1px solid #8b5cf6;
     background-color: transparent;
     color: white;
-  
     display: flex;
     align-items: center;
     gap: 12px;
-  
     font-family: "Inter";
     font-weight: 600;
     font-size: 16px;
@@ -44,7 +39,6 @@ button{
   
 #form-habits {
     display: flex;
-  
     padding: 182px 48px 48px;
     width: fit-content;
 }
@@ -53,16 +47,13 @@ button{
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-  
     gap: 24px;
 }
   
 .habit {
     width: 64px;
     height: 64px;
-  
     font-size: 32px;
-  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,26 +73,20 @@ button{
   
 .day div {
     margin-bottom: 8px;
-  
     font-family: "Roboto Mono";
     font-size: 20px;
     line-height: 125%;
-  
     color: #a1a1aa;
-  
     text-align: center;
 }
   
 input {
     appearance: none;
     -webkit-appearance: none;
-  
     width: 64px;
     height: 64px;
-  
     border: 2px solid #27272a;
     border-radius: 8px;
-  
     background: #18181b;
 }
   
